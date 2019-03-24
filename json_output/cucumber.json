@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 405485,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 319637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginScenario.setUP2()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 177096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 239188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginScenario.zzzzzzzzAfterM1(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21932043086,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in Login page",
+            "match": {
+              "location": "LoginScenario.user_is_in_Login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "D:/@Testing/WS2018/Learn/src/main/java/feature/deals.feature"
+  }
+]
